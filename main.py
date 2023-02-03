@@ -112,33 +112,33 @@ START = f"""
 """
 DEV_OP = [
     [
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"t.me/{OWNER_USERNAME}"),
-        InlineKeyboardButton(text="✨ ꜱᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="✰ ᴏᴡɴᴇʀ ✰", url=f"t.me/{OWNER_USERNAME}"),
+        InlineKeyboardButton(text="✰ ꜱᴜᴘᴘᴏʀᴛ ✰", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
         InlineKeyboardButton(
-            text="🧸 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🧸",
+            text="✰ ᴍᴀᴋᴇ ᴍᴇ ʏᴏᴜʀ ɢғ ✰",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="🚀 ʜᴇʟᴘ & ᴄᴍᴅs 🚀", callback_data="HELP"),
+        InlineKeyboardButton(text="✰ ʜᴇʟᴘs & ᴄᴏᴍᴍᴀɴᴅs✰ ", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
-        InlineKeyboardButton(text="☁️ ᴀʙᴏᴜᴛ ☁️", callback_data="ABOUT"),
+        InlineKeyboardButton(text="✰ sᴏᴜʀᴄᴇ ✰", callback_data="SOURCE"),
+        InlineKeyboardButton(text="✰ ᴍʏ ɪɴғᴏ ✰", callback_data="ABOUT"),
     ],
 ]
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="🧸 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🧸",
+             text="✰ ᴍᴀᴋᴇ ᴍᴇ ʏᴏᴜʀ ɢғ ✰",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
      [
          InlineKeyboardButton(
-             text="✨ sᴜᴘᴘᴏʀᴛ ✨", 
+             text="✰ sᴜᴘᴘᴏʀᴛ ✰", 
              url=f"https://t.me/{SUPPORT_GRP}",
          ),
      ],
@@ -152,23 +152,23 @@ HELP_READ = f"""
 """
 BACK = [
      [
-           InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
+           InlineKeyboardButton(text="✰ ʙᴀᴄᴋ ✰", callback_data="BACK"),
      ],
 ]
 HELP_BTN = [
      [
-          InlineKeyboardButton(text="🐳 ᴄʜᴀᴛʙᴏᴛ 🐳", callback_data="CHATBOT_CMD"),
-          InlineKeyboardButton(text="🎄 ᴛᴏᴏʟs 🎄", callback_data="TOOLS_DATA"),
+          InlineKeyboardButton(text="✰ ᴄʜᴀᴛʙᴏᴛ ✰", callback_data="CHATBOT_CMD"),
+          InlineKeyboardButton(text="✰ ᴛᴏᴏʟs ✰", callback_data="TOOLS_DATA"),
      ],
      [
-          InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
-          InlineKeyboardButton(text="❄️ ᴄʟᴏsᴇ ❄️", callback_data="CLOSE"),
+          InlineKeyboardButton(text="✰ ʙᴀᴄᴋ ✰", callback_data="BACK"),
+          InlineKeyboardButton(text="✰ ᴄʟᴏsᴇ ✰", callback_data="CLOSE"),
      ],
 ]
 
 CLOSE_BTN = [
       [
-           InlineKeyboardButton(text="❄️ ᴄʟᴏsᴇ ❄️", callback_data="CLOSE"),
+           InlineKeyboardButton(text="✰ ᴄʟᴏsᴇ ✰", callback_data="CLOSE"),
       ],
 ]
 
@@ -182,12 +182,12 @@ CHATBOT_ON = [
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="🧸 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ 🧸",
+             text="✰ ᴍᴀᴋᴇ ᴍᴇ ʏᴏᴜʀ ɢғ ✰",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
      [
-         InlineKeyboardButton(text="✨ ᴄʟᴏsᴇ ✨", 
+         InlineKeyboardButton(text="✰ ᴄʟᴏsᴇ ✰", 
                               callback_data="CLOSE",
          ),
      ],
@@ -251,39 +251,39 @@ CHATBOT_READ = f"""
 """
 CHATBOT_BACK = [
         [     
-              InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="CHATBOT_BACK"),
-              InlineKeyboardButton(text="❄️ ᴄʟᴏsᴇ ❄️", callback_data="CLOSE"),
+              InlineKeyboardButton(text="✰ ʙᴀᴄᴋ ✰", callback_data="CHATBOT_BACK"),
+              InlineKeyboardButton(text="✰ ᴄʟᴏsᴇ ✰", callback_data="CLOSE"),
         ],
 ]
 HELP_START = [
      [
-            InlineKeyboardButton(text="🚀 ʜᴇʟᴘ 🚀", callback_data="HELP"),
-            InlineKeyboardButton(text="🐳 ᴄʟᴏsᴇ 🐳", callback_data="CLOSE"),
+            InlineKeyboardButton(text="✰ ʜᴇʟᴘs & ᴄᴏᴍᴍᴀɴᴅs ✰", callback_data="HELP"),
+            InlineKeyboardButton(text="✰ ᴄʟᴏsᴇ ✰", callback_data="CLOSE"),
      ],
 ]
 
 HELP_BUTN = [
      [
-           InlineKeyboardButton(text="🚀 ʜᴇʟᴘ 🚀", url=f"https://t.me/{BOT_USERNAME}?start=help"),
-           InlineKeyboardButton(text="🐳 ᴄʟᴏsᴇ 🐳", callback_data="CLOSE"),
+           InlineKeyboardButton(text="✰ ʜᴇʟᴘs & ᴄᴏᴍᴍᴀɴᴅs ✰", url=f"https://t.me/{BOT_USERNAME}?start=help"),
+           InlineKeyboardButton(text="✰ ᴄʟᴏsᴇ ✰", callback_data="CLOSE"),
      ],
 ]
 
 ABOUT_BTN = [
       [
-           InlineKeyboardButton(text="🎄 sᴜᴘᴘᴏʀᴛ 🎄", url=f"https://t.me/{SUPPORT_GRP}"),  
-           InlineKeyboardButton(text="🚀 ʜᴇʟᴘ 🚀", callback_data="HELP"),
+           InlineKeyboardButton(text="✰ sᴜᴘᴘᴏʀᴛ ✰", url=f"https://t.me/{SUPPORT_GRP}"),  
+           InlineKeyboardButton(text="✰ ʜᴇʟᴘs & ᴄᴏᴍᴍᴀɴᴅs ✰", callback_data="HELP"),
       ],
       [    
-           InlineKeyboardButton(text="🍾 ᴏᴡɴᴇʀ 🍾", url=f"https://t.me/{OWNER_USERNAME}"), 
-           InlineKeyboardButton(text="❄️ sᴏᴜʀᴄᴇ ❄️", callback_data="SOURCE"),
+           InlineKeyboardButton(text="✰ ᴍʏ ᴏᴡɴᴇʀ ✰", url=f"https://t.me/{OWNER_USERNAME}"), 
+           InlineKeyboardButton(text="✰ sᴏᴜʀᴄᴇ ✰", callback_data="SOURCE"),
       ],
       [ 
-           InlineKeyboardButton(text="🐳 ᴜᴘᴅᴀᴛᴇs 🐳", url=f"https://t.me/{UPDATE_CHNL}"),  
-           InlineKeyboardButton(text="✨ ʙᴀᴄᴋ ✨", callback_data="BACK"),
+           InlineKeyboardButton(text="✰ ᴜᴘᴅᴀᴛᴇs ✰", url=f"https://t.me/{UPDATE_CHNL}"),  
+           InlineKeyboardButton(text="✰ ʙᴀᴄᴋ ✰", callback_data="BACK"),
       ],
 ]
-SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ & ɢɪᴠᴇ ᴛʜᴇ sᴛᴀʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://github.com/Devarora-0981/Mickey)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).\n<b>||©️ @{OWNER_USERNAME}||</b>"
+SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ & ɢɪᴠᴇ ᴛʜᴇ sᴛᴀʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://t.me/pirokid)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).\n<b>||©️ @{OWNER_USERNAME}||</b>"
 
 ABOUT_READ = f"""
 **➻ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛ-ʙᴏᴛ.**
@@ -454,7 +454,7 @@ async def ping(client, message: Message):
     ms = (datetime.now()-start).microseconds / 1000
     await message.reply_photo(
         photo=random.choice(PHOTO),
-        caption=f"нey вαву!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>||мαdє ωιтн ❣️ ву [Developer](https://t.me/{OWNER_USERNAME})||</b>",
+        caption=f"нey вαву!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>||мαdє ωιтн ❣️ ву [ᴘɪʀᴏᴋɪᴅ](https://t.me/pirokid)||</b>",
         reply_markup=InlineKeyboardMarkup(PNG_BTN),
     )
 
@@ -697,5 +697,5 @@ async def vickprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print(f"{BOT_NAME} ɪs ᴀʟɪᴠᴇ! ɴᴏᴡ ғᴜᴄᴋ ᴏғғ! ᴀɴᴅ ɢᴏ ᴛᴏ @Wᴇ_ʀғʀɪᴇɴᴅs ʙɪᴛᴄʜ!!")      
+print(f"{BOT_NAME} ɪs ᴀʟɪᴠᴇ! ᴀɴʏ ɪssᴜᴇ ᴛʜᴇɴ ᴠɪsɪᴛ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ [ɴᴏᴏʙᴄʀᴇᴀᴛᴏʀ](t.me/noobcreator)")      
 bot.run()
