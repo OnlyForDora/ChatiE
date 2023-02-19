@@ -17,7 +17,7 @@ from motor.motor_asyncio import AsyncIOMotorClient as MongoCli
 
 API_ID = os.environ.get("API_ID", "27370260") 
 API_HASH = os.environ.get("API_HASH", "3d414789f6fb615cc48341b12c624c22") 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "5621979401:AAGRciQbda9fCgbo5b9JeQcd6DvS7hp8sOg") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5884815523:AAFkjDip39GReh1ZWuRgko_5XYpys5ai24o") 
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://userbot:userbot@cluster0.x6kstu2.mongodb.net/?retryWrites=true&w=majority")
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "GroupChatRbot") 
 UPDATE_CHNL = os.environ.get("UPDATE_CHNL", "NOOBXCREATOR")
